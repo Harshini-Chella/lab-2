@@ -1,0 +1,15 @@
+input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input {
+    margin-top: 0;
+  }
+}
